@@ -8,6 +8,12 @@ export async function POST(req: Request) {
   try {
     const { email, subject, message } = await req.json() as { email: string; subject: string; message: string };
 
+     // Basic email validation
+     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+     if (!emailRegex.test(email)) {
+       throw new Error("Invalid email address.");
+     }
+     
     console.log(email, subject, message);
 
     const emailContent = `

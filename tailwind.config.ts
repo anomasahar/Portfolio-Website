@@ -20,6 +20,11 @@ const config: Config = {
       ...colors,
       primary: colors.purple,
       secondary: colors.pink,
+      sky: colors.sky, // Replacing lightBlue with sky
+      stone: colors.stone, // Replacing warmGray with stone
+      neutral: colors.neutral, // Replacing trueGray with neutral
+      gray: colors.gray, // Replacing coolGray with gray
+      slate: colors.slate, // Replacing blueGray with slate
     },
   },
   plugins: [],
