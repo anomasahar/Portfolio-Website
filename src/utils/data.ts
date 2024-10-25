@@ -21,8 +21,8 @@ export const projectdata:ProjectData[] = [
       title: "Portfolio Website",
       description: "To showcase my skills and projects in web development using Next.js and Tailwind CSS",
       image: img2,
-      gitUrl: "/",
-      previewUrl: "/",
+      gitUrl: "https://github.com/anomasahar/Portfolio-Website",
+      previewUrl: "https://anoma-sahar.vercel.app/",
     },
     {
       id: 2,
