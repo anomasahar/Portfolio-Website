@@ -99,17 +99,16 @@ const TAB_DATA = [
             <li className="mb-4">
             <div className="flex justify-between">
                 <div>
-                <div className="font-semibold">Certified Cloud Native Applied Generative,</div>
-                <div className="font-semibold">Agentic and Robotic AI Engineer</div>
+                <div className="font-semibold">Certified Agentic and Robotic AI Engineer</div>
+                {/* <div className="font-semibold">Agentic and Robotic AI Engineer</div> */}
                 <div>PIAIC, Air University</div>
                 </div>
                 <span className="text-sm text-gray-400">Nov 2023 - Present</span>
             </div>
             <div className='font-semibold my-2'>Description:</div>
-            <p>This certification program provides advanced training in generative AI 
-              techniques for cloud environments, focusing on AI model design, prompt engineering, 
-              and scalable AI system integration. It emphasizes practical skills in deploying and 
-              managing AI applications.</p>
+            <p>This certification focused on developing autonomous, AI-driven robotic systems, gaining
+            skills in robotic programming, sensor integration, and machine learning for practical
+            applications.</p>
             
         </li>
         </ul>
