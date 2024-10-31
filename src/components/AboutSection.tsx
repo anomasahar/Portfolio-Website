@@ -18,7 +18,8 @@ const TAB_DATA = [
           <ul className="list-disc pl-4">
             <li>HTML</li>
             <li>CSS</li>
-            <li>JavaScript (including TypeScript)</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>Modern Python Programming</li>
           </ul>
         </li>
